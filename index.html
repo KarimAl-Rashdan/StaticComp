@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="" rel="stylesheet">
+    <title>Static Comp</title>
+  </head>
+  <body>
+    <nav class="sidenav" id="sidenav">
+      <div>
+        <img class="profile-icon" src="" alt="Profile image">
+        <p>User's Name</p> 
+      </div>
+      <div class="main-section">
+        <p>Main</p>
+        <a href="#"><img class="home-icon" src="" alt="Home icon">HOME</a>
+        <a href="#"><img class="jobs-icon" src="" alt="Job icon">JOBS</a>
+        <a href="#"><img class="resumes-icon" src="" alt="Resume icon">RESUMES</a>
+        <a href="#"><img class="tasks-icon" src="" alt="Tasks icon">TASKS</a>
+        <a href="#"><img class="calendar-icon" src="" alt="Calendar icon">CALENDAR</a>
+      </div>
+      <div class="admin-section">
+        <p>Admin</p>
+        <a href="#"><img class="users-icon" src="" alt="Users icon">USERS</a>
+        <a href="#"><img class="locations-icon" src="" alt="Locations icon">LOCATIONS</a>
+        <a href="#"><img class="workflows-icon" src="" alt="Workflows icon">WORKFLOWS</a>
+        <a href="#"><img class="job-boards-icon" src="" alt="Job Boards icon">JOB BOARDS</a>
+        <a href="#"><img class="social-icon" src="" alt="Social icon">SOCIAL</a>
+      </div>
+      <div>
+        <form class="categories">
+          <p>Categories</p>
+          <fieldset class="checkboxes">
+            <label>
+              <input type="checkbox" id="category1" name="category1" value="Adminstrative">Administrative
+            </label>
+            <label>
+              <input type="checkbox" id="category2" name="category2" value="Design">Administrative
+            </label>
+            <label>
+              <input type="checkbox" id="category3" name="category3" value="Executive">Administrative
+            </label>
+            <label>
+              <input type="checkbox" id="category4" name="category4" value="Human Resources">Human Resources
+            </label>
+          </fieldset>
+        </form>
+      </div>
+    </nav>
+    <!-- <a href="javascript:void(0)" class="closebutton" onclick="closeNavBar()">&times;</a> -->
+    <main>
+      <nav class="topnav" id="topnav">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search" alt="search-icon"></i></button>
+          </form>
+        </div>
+        <a class="active" href="#icon1">icon1</a>
+        <a href="#icon2">icon2</a>
+        <a href="#icon3">icon3</a>
+      </nav>
+      <header class="main-title">
+        <div>
+          <h1>Customer Service Representative</h1>
+          <h2>San Francisco, CA</h2>
+          <a href="Preview this post">Preview this post</a>
+        </div>
+        <div class="edit-buttons">
+          <button class="open">OPEN</button>
+          <button class="save">Save icon</button>
+          <button class="edit">Edit icon</button>
+          <button class="trash">trash icon</button>
+        </div>
+      </header>
+      <section class="middle-nav-container">
+        <nav class="middle-nav">
+          <a class="active" href="#">SUMMARY</a>
+          <a href="#">APPLICANTS</a>
+          <a href="#">JOB BOARD</a>
+          <a href="#">INTERVIEWS</a>
+          <a href="#">ACTIVITY</a>
+          <a href="#">BROADCAST</a>
+          <a href="#">NOTIFICATIONS</a>
+        </nav>
+        <!-- <div class="graph-container" -->
+        <div class="image-container">
+          <div class="first-graph">
+            <img class="circle-graph" src="" alt="circle-graph">
+            <h3>TOTALS-Out of 5,231 views</h3>
+          </div>
+          <div class="second-container">
+            <img class="bar-graph" src="" alt="bar-graph">
+            <h3>APPLICANTS/DAY</h3>
+          </div>
+        </div>
+      </section>
+      <section class="lower-container">
+        <form class="job-description">
+          <div class="title">
+            <h4>JOB DESCRIPTION</h4>
+            <button class="edit-button">EDIT</button>
+          </div>
+          <section class="form-inputs">
+            <table>
+              <tr>
+                <td>POSTITION TITLE</td>
+                <td>Customer Service Representative</td>
+              </tr>
+              <tr>
+                <td>LOCATION</td>
+                <td>San Francisco, CA</td>
+              </tr>
+              <tr>
+                <td>EMPLOYMENT TYPE</td>
+                <td>Full-time</td>
+              </tr>
+              <tr>
+                <td>EXPERIENCE</td>
+                <td>Mid-level</td>
+              </tr>
+              <tr>
+                <td>STATUS</td>
+                <td>Open</td>
+              </tr>
+              <tr>
+                <td>DESCRIPTION</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td>
+              </tr>
+              <tr>
+                <td>HIRING LEAD</td>
+                <td>San Francisco, CA</td>
+              </tr>
+              <tr>
+                <td>LOCATION</td>
+                <td><img class="hiring-image" src="" alt="Hiring Lead image">Tom Tizzy</td>
+              </tr>
+              <tr>
+                <td>APPROVED SALARY</td>
+                <td>$58,000</td>
+              </tr>
+            </table>
+          </section>
+        </form>
+        <aside class="social-media-container">
+          <div class="buttons-container">
+            <button class="facebook-button">Post to Facebook</button>
+            <button class="twitter-button">Tweet this Job</button>
+            <button class="linkedin-button">Post to LinkedIn</button>
+          </div>
+          <article class="aside-info">
+            <h4>Link to this Job</h4>
+            <h5>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage.</h5>
+            <div>
+              <input type="text" placeholder="http://Lorem ipsum dolor sit amet..." name="search">
+              <button type="submit"><i class="fa fa-search" alt="search-icon"></i>Copy</button>
+            </div>
+          </article>
+          <article class="aside-info">
+            <h4>Use the Button Widget</h4>
+            <h5>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage.</h5>
+            <div>
+              <input type="text" placeholder="http://Loremipsumdolorsitamet..." name="search">
+              <button type="submit"><i class="fa fa-search" alt="search-icon"></i>Copy</button>
+            </div>
+          </article>
+          <article class="aside-info">
+            <h4>Upload Resumes by Email</h4>
+            <h5>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage.</h5>
+            <div>
+              <input type="text" placeholder="jsdlhjbslhn@gmail.com" name="search">
+            </div>
+          </article>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>

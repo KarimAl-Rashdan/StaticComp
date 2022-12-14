@@ -1,0 +1,26 @@
+body {
+  display: flex;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section, 
+.admin-section,
+.checkboxes,
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav,
+.main-title,
+.edit-buttons,
+.image-container,
+.title,
+.lower-container {
+  display:flex;
+  flex-direction:row;
+}

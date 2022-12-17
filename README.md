@@ -4,7 +4,7 @@
 ## Abstract
 
 In this Mod 2 solo project, we were asked to match a comp while creating a custom theme for the website. I've chosen to create a tattoo portfolio website where users can check out their favorite tattoo artists and book with them. This comp allows the user to open and close the side navigation bar.
-![Flashcards gif](https://media.giphy.com/media/te7IvwIdYGNiIITwvV/giphy.gif)
+
 ## Local Set-Up Instructions
 - From the repo click the code button and copy the SSH link.
 - Open terminal by pressing command + space bar, and search for terminal

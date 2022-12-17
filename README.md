@@ -19,4 +19,4 @@ Deployment Link: [https://karimal-rashdan.github.io/StaticComp/](https://karimal
 ## Project Goals / Wins / And Future Features
 - Feeling more comfortable with CSS and FlexBox
 - I was able to utilize interface icons, create my own assets files, and create pie & bar graphs using CSS
-- I would like to study web design, and revisit this project to edit the color palette and bacckground
+- I would like to study web design, and revisit this project to edit the color palette and background

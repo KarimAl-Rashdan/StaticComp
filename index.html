@@ -3,76 +3,84 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css' crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
     <link href="" rel="stylesheet">
     <title>Static Comp</title>
   </head>
   <body>
     <nav class="sidenav" id="sidenav">
-      <div>
-        <img class="profile-icon" src="" alt="Profile image">
-        <p>User's Name</p> 
+      <div class="profile-section">
+        <img class="profile-icon" src="./assets/tattoo.jpeg" alt="Profile image">
+        <p>Jasmine Chan<i class="fi fi-ss-angle-small-down"></i></p> 
       </div>
-      <div class="main-section">
+      <div class="main-section sidebar">
         <p>Main</p>
-        <a href="#"><img class="home-icon" src="" alt="Home icon">HOME</a>
-        <a href="#"><img class="jobs-icon" src="" alt="Job icon">JOBS</a>
-        <a href="#"><img class="resumes-icon" src="" alt="Resume icon">RESUMES</a>
-        <a href="#"><img class="tasks-icon" src="" alt="Tasks icon">TASKS</a>
-        <a href="#"><img class="calendar-icon" src="" alt="Calendar icon">CALENDAR</a>
+        <a href="#"><i class="fi fi-rs-home"></i>HOME</a>
+        <a href="#"><i class="fi fi-rr-briefcase"></i>PORTFOLIO</a>
+        <a href="#"><i class="fi fi-rr-document-signed"></i>REFERENCES</a>
+        <a href="#"><i class="fi fi-rr-list-check"></i>EVENTS</a>
+        <a href="#"><i class="fi fi-rs-calendar"></i>CALENDAR</a>
       </div>
-      <div class="admin-section">
+      <div class="admin-section sidebar">
         <p>Admin</p>
-        <a href="#"><img class="users-icon" src="" alt="Users icon">USERS</a>
-        <a href="#"><img class="locations-icon" src="" alt="Locations icon">LOCATIONS</a>
-        <a href="#"><img class="workflows-icon" src="" alt="Workflows icon">WORKFLOWS</a>
-        <a href="#"><img class="job-boards-icon" src="" alt="Job Boards icon">JOB BOARDS</a>
-        <a href="#"><img class="social-icon" src="" alt="Social icon">SOCIAL</a>
+        <a href="#"><i class="fi fi-sr-users"></i>STUDIO</a>
+        <a href="#"><i class="fi fi-rr-marker"></i>LOCATIONS</a>
+        <a href="#"><i class="fi fi-rr-settings"></i>EQUIPMENT</a>
+        <a href="#"><i class="fi fi-ss-clipboard-list-check"></i>REVIEWS</a>
+        <a href="#"><i class="fi fi-rr-hastag"></i>SOCIAL</a>
       </div>
       <div>
         <form class="categories">
           <p>Categories</p>
           <fieldset class="checkboxes">
             <label>
-              <input type="checkbox" id="category1" name="category1" value="Adminstrative">Administrative
+              <input type="checkbox" id="category1" name="category1" value="Adminstrative">Artists
             </label>
             <label>
-              <input type="checkbox" id="category2" name="category2" value="Design">Administrative
+              <input type="checkbox" id="category2" name="category2" value="Design">Design
             </label>
             <label>
-              <input type="checkbox" id="category3" name="category3" value="Executive">Administrative
+              <input type="checkbox" id="category3" name="category3" value="Executive">Discography
             </label>
             <label>
-              <input type="checkbox" id="category4" name="category4" value="Human Resources">Human Resources
+              <input type="checkbox" id="category4" name="category4" value="Human Resources">Experience
             </label>
           </fieldset>
         </form>
       </div>
     </nav>
-    <!-- <a href="javascript:void(0)" class="closebutton" onclick="closeNavBar()">&times;</a> -->
     <main>
       <nav class="topnav" id="topnav">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <span class="open-nav" onclick="openNav()"><i class="fi fi-rr-caret-left"></i><i class="fi fi-ss-menu-burger"></i></span>
         <div class="search-container">
-          <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search" alt="search-icon"></i></button>
+          <form class="form-container" action="/action_page.php">
+            <button type="submit"><i class="fi fi-bs-search"></i></button>
+            <input class="search-input" type="text" placeholder="Search.." name="search">
           </form>
         </div>
-        <a class="active" href="#icon1">icon1</a>
-        <a href="#icon2">icon2</a>
-        <a href="#icon3">icon3</a>
+        <a class="active topbutton" href="#"><i
+          class=
+          "fi fi-sr-user-add"
+          ></i></a>
+        <a class="topbutton" href="#"><i class="fi fi-rr-calendar"></i></i></a>
+        <a class="topbutton" href="#"><i class="fi fi-br-grid"></i></a>
       </nav>
       <header class="main-title">
         <div>
-          <h1>Customer Service Representative</h1>
-          <h2>San Francisco, CA</h2>
+          <h1>Tattoo Artist</h1>
+          <h2>Queens, NY</h2>
           <a href="Preview this post">Preview this post</a>
         </div>
         <div class="edit-buttons">
-          <button class="open">OPEN</button>
-          <button class="save">Save icon</button>
-          <button class="edit">Edit icon</button>
-          <button class="trash">trash icon</button>
+          <button class="open"><i class="fi fi-ss-circle-small"></i>OPEN</button>
+          <button class="save middle-button"><i class="fi fi-ss-bookmark"></i></button>
+          <button class="edit middle-button"><i class="fi fi-sr-pencil"></i></button>
+          <button class="trash middle-button"><i class="fi fi-ss-trash"></i></button>
         </div>
       </header>
       <section class="middle-nav-container">
@@ -88,12 +96,21 @@
         <!-- <div class="graph-container" -->
         <div class="image-container">
           <div class="first-graph">
-            <img class="circle-graph" src="" alt="circle-graph">
-            <h3>TOTALS-Out of 5,231 views</h3>
+            <div class="pie" style="--p:95;--b:10px;--c:#CE4127;"><span class="large">95%</span>Skill</div>
+            <!-- <img class="circle-graph" src="" alt="circle-graph">
+            <h3>TOTALS-Out of 5,231 views</h3> -->
           </div>
-          <div class="second-container">
-            <img class="bar-graph" src="" alt="bar-graph">
-            <h3>APPLICANTS/DAY</h3>
+          <div class="second-graph">
+            <div class="pie" style="--p:100;--b:10px;--c:#CE4127;"><span class="large">100%</span>Professional</div>
+            <!-- <img class="circle-graph" src="" alt="circle-graph">
+            <h3>TOTALS-Out of 5,231 views</h3> -->
+          </div>
+          <div class="third-graph">
+            <div class="pie" style="--p:99;--b:10px;--c:#CE4127;"><span class="large">99%</span>Kind</div>
+            <!-- <img class="circle-graph" src="" alt="circle-graph">
+            <h3>TOTALS-Out of 5,231 views</h3> -->
+          </div>
+            <img class="bar-graph" src="./assets/bar-graph.png" alt="bar-graph">
           </div>
         </div>
       </section>
@@ -107,39 +124,39 @@
             <table>
               <tr>
                 <td>POSTITION TITLE</td>
-                <td>Customer Service Representative</td>
+                <td>Tattoo Artist</td>
               </tr>
               <tr>
                 <td>LOCATION</td>
-                <td>San Francisco, CA</td>
+                <td>Queens, NY</td>
               </tr>
               <tr>
                 <td>EMPLOYMENT TYPE</td>
-                <td>Full-time</td>
+                <td>Self-Employed</td>
               </tr>
               <tr>
                 <td>EXPERIENCE</td>
-                <td>Mid-level</td>
+                <td>5 years</td>
               </tr>
               <tr>
                 <td>STATUS</td>
-                <td>Open</td>
+                <td>Open Booking</td>
               </tr>
               <tr>
                 <td>DESCRIPTION</td>
                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td>
               </tr>
               <tr>
-                <td>HIRING LEAD</td>
-                <td>San Francisco, CA</td>
+                <td>Studio</td>
+                <td><img class="studio-image" src="./assets/YantStudioLogo.png" alt="Hiring Lead image">Yant Studio</td>
               </tr>
               <tr>
                 <td>LOCATION</td>
-                <td><img class="hiring-image" src="" alt="Hiring Lead image">Tom Tizzy</td>
+                <td>71-51 Austin St 2nd Floor, Queens, NY 11375</td>
               </tr>
               <tr>
-                <td>APPROVED SALARY</td>
-                <td>$58,000</td>
+                <td>Regular Rate</td>
+                <td>Contact Artist</td>
               </tr>
             </table>
           </section>
@@ -167,7 +184,7 @@
             </div>
           </article>
           <article class="aside-info">
-            <h4>Upload Resumes by Email</h4>
+            <h4>Send Inquiries by Email</h4>
             <h5>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage.</h5>
             <div>
               <input type="text" placeholder="jsdlhjbslhn@gmail.com" name="search">
